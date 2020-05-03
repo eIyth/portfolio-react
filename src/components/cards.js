@@ -3,7 +3,7 @@ import React from 'react';
 class Cards extends React.Component{
     render() {
       return(
-    <div className="h-auto w-3/12 cursor-pointer rounded-lg shadow-lg inline-block mx-12 my-10">
+    <div className="h-auto xl:w-3/12 lg:w-auto md:w-auto cursor-pointer rounded-lg shadow-lg inline-block mx-12 my-10">
         <a class="cursor-pointer hover:border-pink-900" href={this.props.website}>
             <img className="w-full rounded" src={this.props.image} alt={this.props.image} />
         </a>

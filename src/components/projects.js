@@ -5,8 +5,8 @@ class Projects extends React.Component{
     render(){
         return(
             <div>
-            <div className="text-3xl text-center my-5">Projects</div>
-            <div className=" flex mx-auto items-center justify-center w-1/12 border-t-4 mb-10 border-indigo-400 "></div>
+             <div className="text-3xl text-center my-5">Projects</div>
+             <div className=" flex mx-auto items-center justify-center w-1/12 border-t-4 mb-10 border-indigo-400 "></div>
             <div className="container w-screen mt-10 mx-auto">
             <Cards 
               name="Location Materiel" 
@@ -45,7 +45,7 @@ class Projects extends React.Component{
               language={['#NodeJS','#Discord API','#Fun']} 
               image='/images/LocationMateriel.png'
             />
-          </div>
+           </div>
           </div>
             
         );
