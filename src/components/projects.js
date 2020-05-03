@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/main.css';
 import Cards from '../components/cards.js'
 
 class Projects extends React.Component{
