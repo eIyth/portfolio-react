@@ -17,3 +17,8 @@ h1 {
 h2 {
     @apply text-xl;
 }
+
+#menu-toggle:checked + #menu {
+  display: block;
+  flex:right;
+}
