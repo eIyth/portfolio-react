@@ -4,7 +4,7 @@ import Cards from '../components/cards.js'
 class Projects extends React.Component{
     render(){
         return(
-          <div className="flex p-0 w-screen items-center justify-center">
+          <div className="flex p-0 w-screen items-center justify-center" id="Projects">
           <div className="overflow-hidden container">
               <div className="px-6 py-4">
                   <div className="text-4xl font-light text-center">Projects</div>

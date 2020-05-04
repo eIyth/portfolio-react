@@ -5,12 +5,15 @@ import Projects from './components/projects.js';
 import Skills from './components/skills.js';
 import { Helmet } from 'react-helmet'
 
+
 const Home = _ => 
   <div>
     <Helmet>
       <title>Gwenc'hlan | Potfolio</title>
     </Helmet>
   </div>
+
+
 
 function App() {
   return (
@@ -24,7 +27,10 @@ function App() {
         <Projects/>
       </body>
     </div>
+
+    
   );
 }
+
 
 export default App;
