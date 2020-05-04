@@ -40,14 +40,14 @@ class Projects extends React.Component{
                       />
                       <Cards 
                       name="Header Class Generator" 
-                      text="My first Qt project. Automate your header class" 
+                      text="My first Qt project. Automate the generation of your header class" 
                       language={['#Qt','#tool','#openclassroom']} 
                       image='/images/QtProject.png'
                       />
                       <Cards 
                       name="Comming Soon" 
                       text="Once I am happy enough with this website, more projects will be coming" 
-                      language={['#soon','#notyet','#Fun']} 
+                      language={['#soon','#notyet','#eopickoudyr']} 
                       image='/images/SoonTM.jpg'
                       />
                       
