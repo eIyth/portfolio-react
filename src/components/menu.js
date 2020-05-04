@@ -17,7 +17,7 @@ class Menu extends React.Component{
 
     <div className="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
         <nav>
-        <ul className="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
+        <ul className="lg:flex items-center justify-between text-base text-white lg:text-gray-700 pt-4 lg:pt-0">
             <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="/Home">Home</a></li>
             <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="/Projects">Projects</a></li>
             <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2" href="/Contact">Contact</a></li>
