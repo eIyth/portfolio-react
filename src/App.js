@@ -1,7 +1,8 @@
 import React from 'react';
 import Menu from './components/menu.js';
 import AboutMe from './components/about.js';
-import Projects from './components/projects';
+import Projects from './components/projects.js';
+import Skills from './components/skills.js';
 import { Helmet } from 'react-helmet'
 
 const Home = _ => 
@@ -19,6 +20,7 @@ function App() {
       <body className="antialiased">
         <Menu/>
         <AboutMe/>
+        <Skills/>
         <Projects/>
       </body>
     </div>
