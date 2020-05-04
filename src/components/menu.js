@@ -22,6 +22,7 @@ class Menu extends React.Component{
             <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="/Projects">Projects</a></li>
             <li><a className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400 lg:mb-0 mb-2" href="/Contact">Contact</a></li>
         </ul>
+        
         </nav>
     </div>
     </header>
