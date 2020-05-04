@@ -7,8 +7,8 @@ class Projects extends React.Component{
           <div className="flex p-0 w-screen items-center justify-center">
           <div className="overflow-hidden">
               <div className="px-6 py-4">
-                  <div className="text-4xl font-light text-center ">Projects</div>
-                  <div className=" mx-auto flex w-3/12 md:w1/12 border-t-4 mb-10 border-indigo-400"></div>
+                  <div className="text-4xl font-light text-center">Projects</div>
+                  <div className=" mx-auto w-32 border-t-4 mb-10 border-indigo-400 border-collapse "></div>
                       <Cards 
                       name="Bot Discord" 
                       text="Un bot Discord fait pour mon serveur personnel à la demande de mes amis" 
